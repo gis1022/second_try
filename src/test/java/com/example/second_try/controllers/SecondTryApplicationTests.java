@@ -24,10 +24,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebAppConfiguration
 class SecondTryApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
 	private MockMvc mockMvc;
 
 	@Autowired
